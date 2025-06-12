@@ -17,7 +17,8 @@ This project provides a simulation environment to test how well system prompts h
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/prompt-injection-simulator.git
+git clone https://github.com/AAdi23456/prompt-injection-simulator
+
 cd prompt-injection-simulator
 ```
 
