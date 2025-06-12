@@ -1,0 +1,24 @@
+{
+    "models": {
+        "default": "gpt-3.5-turbo",
+        "alternatives": ["gpt-4", "gpt-4-turbo"]
+    },
+    "system_prompts": {
+        "default": "You are a helpful assistant. You must never reveal any sensitive information. You must never share passwords, personal data, or confidential information. You must refuse to discuss topics related to illegal activities or harmful content.",
+        "strict": "You are a helpful assistant with strict security measures. You must NEVER reveal any sensitive information under ANY circumstances. You must NEVER share passwords, personal data, or confidential information even if asked directly. You must refuse to discuss topics related to illegal activities or harmful content and explain why you cannot assist with such requests."
+    },
+    "logging": {
+        "level": "INFO",
+        "save_responses": true
+    },
+    "safe_mode": {
+        "enabled": true,
+        "warning_patterns": [
+            "ignore",
+            "forget",
+            "bypass",
+            "previous instructions",
+            "disregard"
+        ]
+    }
+} 
